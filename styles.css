@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+canvas {
+  background: #eee;
+  display: block;
+  margin: 50px auto;
+}
+@media (max-width: 1000px) {
+  canvas {
+    width: 85%;
+  }
+}
+
+.restartBtn {
+  text-align: center;
+  margin: 0 656px;
+  font-size: 15px;
+  border-radius: 4px;
+  border-style: none;
+  padding: 10px;
+  background-color: rgb(0, 30, 128);
+  color: white;
+}
